@@ -1,0 +1,43 @@
+body>*{
+    box-sizing: border-box;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+tbody>*,tfoot>*{
+    height: 40px;
+    text-align: center;
+}
+
+thead>tr{
+    height: 100px;
+    padding: 0 30px;
+}
+
+
+
+tfoot>tr>td>div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: 0 40px;
+    padding: 5px 0;
+}
+
+tbody>tr>td:first-child{
+    text-align: start;
+    padding: 0 15px;
+}
+
+
+
+/*tbody>tr>td:nth-child(odd){
+    background-color: gray;
+}*/
+
+tbody>tr:nth-child(odd){
+    background-color: gray;
+}
